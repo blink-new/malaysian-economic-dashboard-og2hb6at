@@ -151,4 +151,18 @@
   .scrollbar-hide::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
   }
+  
+  .main-content {
+    @apply flex-1 transition-all duration-300 ease-in-out;
+  }
+  
+  .main-content.with-panel {
+    @apply mr-80; /* Adjust based on panel width */
+  }
+  
+  @media (width <= 1024px) {
+    .main-content.with-panel {
+      @apply mr-0; /* Remove margin on mobile, panel should overlay */
+    }
+  }
 }

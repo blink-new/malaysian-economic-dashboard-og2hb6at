@@ -60,7 +60,7 @@ const manufacturingSubsectors = [
 
 export function GDPAnalysis() {
   return (
-    <div className="space-y-6">
+    <>
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -610,6 +610,6 @@ export function GDPAnalysis() {
           </TabsContent>
         </Tabs>
       </motion.div>
-    </div>
+    </>
   )
 }

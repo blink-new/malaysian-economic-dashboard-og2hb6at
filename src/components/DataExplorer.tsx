@@ -148,7 +148,7 @@ const apiEndpoints = [
 
 export function DataExplorer() {
   return (
-    <div className="space-y-6">
+    <>
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -872,6 +872,6 @@ print(data)`}</code>
           </TabsContent>
         </Tabs>
       </motion.div>
-    </div>
+    </>
   )
 }

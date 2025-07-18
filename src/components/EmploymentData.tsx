@@ -74,7 +74,7 @@ const skillsData = [
 
 export function EmploymentData() {
   return (
-    <div className="space-y-6">
+    <>
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -758,6 +758,6 @@ export function EmploymentData() {
           </TabsContent>
         </Tabs>
       </motion.div>
-    </div>
+    </>
   )
 }

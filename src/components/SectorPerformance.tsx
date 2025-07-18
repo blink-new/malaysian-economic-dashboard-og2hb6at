@@ -120,7 +120,7 @@ const sectorInsights = [
 
 export function SectorPerformance() {
   return (
-    <div className="space-y-6">
+    <>
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -611,6 +611,6 @@ export function SectorPerformance() {
           </TabsContent>
         </Tabs>
       </motion.div>
-    </div>
+    </>
   )
 }

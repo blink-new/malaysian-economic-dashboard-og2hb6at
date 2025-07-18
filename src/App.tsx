@@ -182,12 +182,13 @@ function App() {
           </header>
 
           {/* Page Content */}
-          <main className="p-6">
+          <main className="main-content">
             <motion.div
               key={currentPage}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3 }}
+              className="max-w-screen-xl mx-auto w-full px-6 py-8 space-y-8"
             >
               {renderPage()}
             </motion.div>

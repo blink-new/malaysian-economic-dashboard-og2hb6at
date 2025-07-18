@@ -77,7 +77,7 @@ const keyMetrics = [
 
 export function DashboardOverview() {
   return (
-    <div className="space-y-6">
+    <>
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -350,6 +350,6 @@ export function DashboardOverview() {
           </CardContent>
         </Card>
       </motion.div>
-    </div>
+    </>
   )
 }
